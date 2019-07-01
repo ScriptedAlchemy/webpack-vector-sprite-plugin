@@ -1,22 +1,22 @@
 'use strict';
 
 // Depends
-var path = require('path');
-var SvgStore = require('../src/svgstore');
+const path = require('path');
+const SvgStore = require('../src/svgstore');
 
 module.exports = function(_path) {
   // define local variables
-  var distPath = path.join(_path, 'platform', 'dist');
+  var distPath = path.join(_path, 'example', 'dist');
 
   return {
     entry: {
-      app: path.join(_path, 'platform', 'static', 'js', 'index.js')
+      app: path.join(_path, 'example', 'static', 'js', 'index.js')
     },
     output: {
       path: distPath,
       filename: '[chunkhash].[name].js',
       chunkFilename: '[chunkhash].[id].js',
-      publicPath: '/platform/'
+      publicPath: '/example/'
     },
     resolve: {
       extensions: ['.js']
