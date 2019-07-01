@@ -1,8 +1,8 @@
 /**
  * Load svg via ajax
  * @param  {string} url path to svg sprite
- * @generator: webpack-svgstore-plugin
- * @see: https://www.npmjs.com/package/webpack-svgstore-plugin
+ * @generator: webpack-svg-sprite-plugin
+ * @see: https://www.npmjs.com/package/webpack-svg-sprite-plugin
  * @return {[type]}     [description]
  */
 const svgXHR = function (options) {

@@ -5,7 +5,7 @@
  * @type {Object}
  */
 var _configs = {
-  platform: require(__dirname + '/platform/global')
+  example: require(__dirname + '/example/global')
 };
 
 /**
