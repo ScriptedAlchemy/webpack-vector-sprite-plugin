@@ -14,8 +14,7 @@
 ## Package info
 [![Build Status](https://travis-ci.org/ScriptedAlchemy/webpack-vector-sprite-plugin.svg?branch=master)](https://travis-ci.org/ScriptedAlchemy/webpack-vector-sprite-plugin)
 [![NPM version](https://badge.fury.io/js/webpack-vector-sprite-plugin.svg)](https://badge.fury.io/js/webpack-vector-sprite-plugin)
-[![Code Climate](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin/badges/gpa.svg)](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin)
-[![Test Coverage](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin/badges/coverage.svg)](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin/coverage)
+
 
 ## Installation
 ```bash
@@ -100,4 +99,4 @@ React JSX:
 
 NPM package available here: [webpack-vector-sprite-plugin](https://www.npmjs.com/package/webpack-vector-sprite-plugin)
 
-MIT © [Chernobrov Mike](http://ScriptedAlchemy.ru), [Gordey Levchenko](https://github.com/lgordey) , [Nadav Sinai](https://github.com/nadavsinai)
+MIT © [Chernobrov Mike](http://ScriptedAlchemy.ru), [Gordey Levchenko](https://github.com/lgordey) , [Nadav Sinai](https://github.com/nadavsinai) , [Zack Jackson](https://github.com/ScriptedAlchemy)
