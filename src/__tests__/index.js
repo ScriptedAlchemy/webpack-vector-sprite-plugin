@@ -42,7 +42,7 @@ var runAbsolutePathsExample = function (done) {
     svgoOptions: {}
   });
 
-  // @see https://github.com/ScriptedAlchemy/webpack-svg-sprite-plugin/issues/51
+  // @see https://github.com/ScriptedAlchemy/webpack-vector-sprite-plugin/issues/51
   // replace plugin config
   config.plugins = [instance];
 

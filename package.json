@@ -1,5 +1,5 @@
 {
-  "name": "webpack-svg-sprite-plugin",
+  "name": "webpack-vector-sprite-plugin",
   "version": "1.0.0",
   "description": "Webpack plugin to create svg sprites from independent imports",
   "main": "src/svgstore.js",
@@ -7,7 +7,7 @@
     "test": "cross-env NODE_ENV=example mocha ./src/__tests__/index.js",
     "code:coverage": "cross-env NODE_ENV=example istanbul cover ./node_modules/mocha/bin/_mocha ./src/__tests__/index.js && npm run code:report",
     "code:report": "cross-env CODECLIMATE_REPO_TOKEN=29b2c943849c33562af12b70563d86e95c073e04c7510e9da5d9711cf3233b17 ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info",
-    "build": "rimraf example/dist/* && cross-env NODE_ENV=platform webpack -p --progress --colors --bail"
+    "build": "rimraf example/dist/* && cross-env NODE_ENV=example webpack -p --progress --colors --bail"
   },
   "author": "Zack Jackson <zack@ScriptedAlchemy.com> (https://github.com/ScriptedAlchemy)",
   "license": "MIT",
@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ScriptedAlchemy/webpack-svg-sprite-plugin"
+    "url": "https://github.com/ScriptedAlchemy/webpack-vector-sprite-plugin"
   }
 }

@@ -9,22 +9,22 @@
 ╚══════╝  ╚═══╝   ╚═════╝     ╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝                                                                     
 ```
 
-[![NPM](https://nodei.co/npm/webpack-svg-sprite-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/webpack-svg-sprite-plugin/)
+[![NPM](https://nodei.co/npm/webpack-vector-sprite-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/webpack-vector-sprite-plugin/)
 
 ## Package info
-[![Build Status](https://travis-ci.org/ScriptedAlchemy/webpack-svg-sprite-plugin.svg?branch=master)](https://travis-ci.org/ScriptedAlchemy/webpack-svg-sprite-plugin)
-[![NPM version](https://badge.fury.io/js/webpack-svg-sprite-plugin.svg)](https://badge.fury.io/js/webpack-svg-sprite-plugin)
-[![Code Climate](https://codeclimate.com/github/ScriptedAlchemy/webpack-svg-sprite-plugin/badges/gpa.svg)](https://codeclimate.com/github/ScriptedAlchemy/webpack-svg-sprite-plugin)
-[![Test Coverage](https://codeclimate.com/github/ScriptedAlchemy/webpack-svg-sprite-plugin/badges/coverage.svg)](https://codeclimate.com/github/ScriptedAlchemy/webpack-svg-sprite-plugin/coverage)
+[![Build Status](https://travis-ci.org/ScriptedAlchemy/webpack-vector-sprite-plugin.svg?branch=master)](https://travis-ci.org/ScriptedAlchemy/webpack-vector-sprite-plugin)
+[![NPM version](https://badge.fury.io/js/webpack-vector-sprite-plugin.svg)](https://badge.fury.io/js/webpack-vector-sprite-plugin)
+[![Code Climate](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin/badges/gpa.svg)](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin)
+[![Test Coverage](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin/badges/coverage.svg)](https://codeclimate.com/github/ScriptedAlchemy/webpack-vector-sprite-plugin/coverage)
 
 ## Installation
 ```bash
-npm i webpack-svg-sprite-plugin --save-dev
+npm i webpack-vector-sprite-plugin --save-dev
 ```
 
 ## Webpack version support
-Use webpack-svg-sprite-plugin@3.x.x for Webpack 1.x.x  
-Use webpack-svg-sprite-plugin@4.x.x for Webpack 2.x.x,3.x.x,4.x.x. 
+Use webpack-vector-sprite-plugin@3.x.x for Webpack 1.x.x  
+Use webpack-vector-sprite-plugin@4.x.x for Webpack 2.x.x,3.x.x,4.x.x. 
 ## Node.js version support
 #### We do not maintain a version for node.js 0.12 anymore
   Tested to work with with node.js 4.x,6.x,7.x,8.x
@@ -32,13 +32,13 @@ Use webpack-svg-sprite-plugin@4.x.x for Webpack 2.x.x,3.x.x,4.x.x.
 
 ## Webpack configuration
 
-[EXAMPLE here](https://github.com/ScriptedAlchemy/webpack-svg-sprite-plugin/tree/master/example)
+[EXAMPLE here](https://github.com/ScriptedAlchemy/webpack-vector-sprite-plugin/tree/master/example)
 
 ## Usage
 #### 1) require plugin
 ```javascript
 //webpack.config.js
-var SvgStore = require('webpack-svg-sprite-plugin');
+var SvgStore = require('webpack-vector-sprite-plugin');
 module.exports = {
   plugins: [
     // create svgStore instance object
@@ -68,7 +68,7 @@ var __svg__           = { path: './assets/svg/**/*.svg', name: 'assets/svg/[hash
 // var __svgsprite__  = { path: './assets/svg/minify/*.svg', name: 'assets/svg/[hash].1logos.svg' };
 
 // require basic or custom sprite loader
-require('webpack-svg-sprite-plugin/src/helpers/svgxhr')(__svg__);
+require('webpack-vector-sprite-plugin/src/helpers/svgxhr')(__svg__);
 ```
 
 ##### Dear friends...
@@ -98,6 +98,6 @@ React JSX:
 
 ## License
 
-NPM package available here: [webpack-svg-sprite-plugin](https://www.npmjs.com/package/webpack-svg-sprite-plugin)
+NPM package available here: [webpack-vector-sprite-plugin](https://www.npmjs.com/package/webpack-vector-sprite-plugin)
 
 MIT © [Chernobrov Mike](http://ScriptedAlchemy.ru), [Gordey Levchenko](https://github.com/lgordey) , [Nadav Sinai](https://github.com/nadavsinai)
