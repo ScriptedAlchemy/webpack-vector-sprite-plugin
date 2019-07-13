@@ -21,10 +21,17 @@ module.exports = function(_path) {
     resolve: {
       extensions: ['.js']
     },
+    module: {
+      rules: [
+        {
+          test: /\.(svg|woff2?|ttf|eot|jpe?g|png|gif)(\?.*)?$/i,
+          use: ['file-loader'],
+        },
+      ]
+    },
     plugins: [
       // create svgStore instance object
-      new SvgStore.Options({
-        // svgo options
+      new SvgStore({
         svgoOptions: {
           plugins: [
             { removeTitle: true }
